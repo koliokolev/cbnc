@@ -1,0 +1,897 @@
+
+@font-face {
+  font-family: headerfont;
+  src: url("./fonts/STHeiti_Light.ttc"),
+       url("./fonts/STHeiti_Light.ttc")format('truetypecollection');
+}
+@font-face {
+  font-family: mainfont;
+  src: url("./fonts/STHeiti_Medium.ttc"),
+       url("./fonts/STHeiti_Light.ttc")format('truetype');
+}
+
+
+
+body {
+background-color: #FFFFFF;
+font-family: arial;
+}
+
+* {padding: 0;
+  margin: 0;}
+
+
+/*  STARTS BREAKING @ 1132PX  */
+
+
+/* ====================== GLOBAL CLASSES ====================== */
+.circlebar {
+  /* width: 25%; */
+  width: 285px;
+  height: auto;
+}
+
+.icon {
+  width: 100px;
+  height: auto;
+  padding-bottom: 30px;
+}
+
+.form_field {
+  width: 100%;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 30px;
+  opacity: 0.7;
+}
+
+.form_button {
+  width: 30%;
+  height: auto;
+  color: #949494;
+  padding: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  border: none;
+  font-size: 30px;
+  opacity: 0.7;
+  margin-left:50%;
+  transform: translateX(-50%);
+}
+.form_button:hover {
+  background: white;
+  color: #4C7FBA;
+  opacity: 1.0;
+}
+
+/* ====================== GLOBAL CLASSES ====================== */
+
+
+
+
+
+/* MEDIA QUERY FOR THE ABOUT DESCRIPTION */
+
+
+
+
+
+/* MEDIA QUERY FOR THE ABOUT DESCRIPTION */
+
+
+
+
+
+
+
+
+
+/* ---------------------------- HEADER DESKTOP ----------------------------  */
+
+
+#wrapper_header {
+  width: 100%;
+}
+#logo {
+  padding-top: 10px;
+}
+
+
+nav img {
+  height: 150px;
+  padding-left: 30px;
+}
+nav {
+  padding-bottom: 20px;
+  display: inline-block;
+  width: 100%;
+}
+nav h2 {
+  position: absolute;
+  left: 70; top: 30px;
+  font-size: 30px;
+  font-family: arial;
+  font-weight: 100;
+  color: #4C7FBA;
+}
+
+nav ul {
+  position: absolute;
+  list-style: none;
+  display: inline-block;
+  right: 5%;
+  top: 125px;
+}
+nav ul li {
+display: inline-block;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: arial;
+  font-weight: 100;
+  color: #4C7FBA;
+  font-size: 30px;
+  padding-right: 52px;
+}
+
+nav ul li a:hover {
+  color: #949494;
+}
+
+
+#banner {
+  background: url('./img/bannerimage.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  position: relative;
+}
+#banner_inner {
+  background: #3880BF;
+  width: 100%;
+  height: 100%;
+  opacity: 0.2;
+}
+#banner_text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  top: 10%;
+  font-family: headerfont;
+  color: white;
+  z-index: 100;
+  width: 100%;
+}
+#banner_text h2 {
+  font-size: 80px;
+  font-weight: 100;
+  padding-bottom: 3%;
+}
+#banner_text h3 {
+font-size: 40px;
+}
+#appointment {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 100;
+}
+#appointment_button {
+    font-size: 25px;
+    color: white;
+    background: #4C7FBA;
+    opacity: 0.59;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-radius: 15px;
+    cursor: pointer;
+    border: none;
+    font-family: mainfont;
+}
+
+#appointment_button:hover {
+    cursor: pointer;
+    background: white;
+    opacity: 0.59;
+    color: #4C7FBA;
+}
+/* ---------------------------- HEADER DESKTOP ----------------------------  */
+
+/* ---------------------------- ABOUT DESKTOP ----------------------------  */
+
+#about {
+  margin-top: 7%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+#about_title h2 {
+  font-size: 80px;
+  font-family: mainfont;
+  color: #949494;
+}
+ #about_text {
+  display: inline-block;
+  padding-top: 20px;
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+#about_text img {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+ #about_text_name {
+   position: absolute;
+   left: 25%;
+   top: 40%;
+   font-size: 30px;
+   color: #949494;
+ }
+#about_text_description {
+  position: absolute;
+  left: 54%;
+  font-size: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #949494;
+}
+
+
+
+/* ---------------------------- ABOUT DESKTOP ----------------------------  */
+/* ---------------------------- WHAT MAKES US DIFFERENT DESKTOP ----------------------------  */
+
+#what_makes_us_different {
+  height: auto;
+  width: 100%;
+  padding-top: 120px;
+}
+#different_title h2 {
+  font-size: 80px;
+  font-family: mainfont;
+  text-align: center;
+  color: #949494;
+}
+#different_description {
+  font-size: 30px;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  color: #949494;
+  padding-bottom: 50px;
+}
+
+#different_description p {
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center;
+}
+
+#different_motto {
+  font-size: 25px;
+  text-align: center;
+  font-family: mainfont;
+  color: #949494;
+  width: 100%;
+  height: auto;
+}
+
+/* ---------------------------- WHAT MAKES US DIFFERENT DESKTOP ----------------------------  */
+
+/* ---------------------------- SERVICES DESKTOP ----------------------------  */
+
+#services {
+  height: auto;
+  width: 100%;
+  padding-top: 150px;
+}
+#services_title {
+  margin-left: 5%;
+  padding-bottom: 150px;
+}
+#services_title h2 {
+  height: 100px;
+  font-size: 80px;
+  font-family: mainfont;
+  color: #949494;
+}
+#services_section {
+  background: url('./img/services_background01.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 2800px;
+  position: relative;
+}
+
+.bubbleclass1 {
+  height: 400px;
+  width: 400px;
+  border-radius: 100%;
+  background: #4C7FBA;
+  position: relative;
+  text-align: center;
+}
+.bubbleclass1 p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+  font-family: mainfont;
+  color: white;
+}
+
+.bubbleclass2 {
+  height: 300px;
+  width: 300px;
+  border-radius: 100%;
+  background: #4C7FBA;
+  font-family: mainfont;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.bubbleclass2 .services_inner {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-family: mainfont;
+  color: white;
+}
+
+#one {
+    position: absolute;
+    top: 3%;
+    left: 15%;
+    background-image:url("./img/body_photo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#two {
+    position: absolute;
+    top: 13%;
+    left: 50%;
+}
+#three {
+    position: absolute;
+    top: 24%;
+    left: 68%;
+}
+#four {
+    position: absolute;
+    top: 36%;
+    left: 55%;
+}
+#five {
+    position: absolute;
+    top: 46%;
+    left: 32%;
+    background-image:url("./img/medicine_m.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#six {
+    position: absolute;
+    top: 60%;
+    left: 20%;
+}
+#seven {
+    position: absolute;
+    top: 71%;
+    left: 7%;
+}
+#eight {
+    position: absolute;
+    top: 82%;
+    left: 21%;
+}
+#nine img{
+
+  height: auto;
+  width: 25%;
+  position: absolute;
+  left: 44%;
+  top: 90%;
+  max-width: 300px;
+  min-width: 200px;
+}
+
+/* ---------------------------- SERVICES DESKTOP ----------------------------  */
+
+
+/* ---------------------------- USANA DESKTOP ----------------------------  */
+  #usana {
+    padding-top: 100px;
+    width: 100%;
+    height: auto;
+    padding-bottom: 100px;
+  }
+
+  #usana_one {
+    font-size: 40px;
+    text-align: center;
+    width:70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #usana_two {
+    padding-top: 100px;
+    font-size: 40px;
+    text-align: center;
+    width:70%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+/* ---------------------------- USANA DESKTOP ----------------------------  */
+
+/* ---------------------------- CONTACT FORM DESKTOP ----------------------------  */
+
+#contact_form {
+  background:#4C7FBA;
+  height: 1200px;
+  width: auto;
+}
+#contact_form_title {
+  padding-top:75px;
+}
+#contact_form_title h2 {
+  font-size: 80px;
+  font-family: mainfont;
+  color: white;
+  text-align: center;
+}
+#contact_form_title img {
+  margin-left: 50%;
+  transform:translateX(-50%);
+}
+
+#contact_form_inner {
+  width: 100%;
+  height: auto;
+  padding-top: 30px;
+}
+
+form {
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+#contact_form_info {
+  width: 96%;
+  color: white;
+  font-family: mainfont;
+  font-size: 30px;
+  margin: 2%;
+  margin-top: 5%;
+  display: inline-flex;
+  text-align: center;
+  position: relative;
+}
+
+#address{
+left: 10%;
+position: absolute;
+
+}
+#numbers{
+right: 10%;
+position: absolute;
+
+}
+#office{
+  color: white;
+}
+#mobile{
+  color: white;
+}
+#office:hover{
+  color: #94D8FB;
+}
+#mobile:hover{
+  color: #94D8FB;
+}
+#copyright {
+  text-align: center;
+  margin-top: 80px;
+}
+
+
+/* ---------------------------- CONTACT FORM DESKTOP ----------------------------  */
+
+/* ==================================== MOBILE VERSION ===================================  */
+/* ==================================== MOBILE VERSION ===================================  */
+/* ==================================== MOBILE VERSION ===================================  */
+/* ==================================== MOBILE VERSION ===================================  */
+
+
+
+/* ======= MEDIA QUERY - TITLE AND ABOUT DESCRIPTION SIZE-DOWN IPAD PRO FUNCTIONAL ======= */
+@media (min-width:936px) and (max-width:1088px) {
+  #about_text_description {
+    font-size: 25px;
+  }
+  #banner_text h3 {
+    font-size: 36px;
+  }
+}
+/* ======= MEDIA QUERY - TITLE AND ABOUT DESCRIPTION SIZE-DOWN IPAD PRO FUNCTIONAL ======= */
+
+/* =================== MEDIA QUERY - IPAD - REGULAR  ========================= */
+
+@media (min-width:700px) and (max-width:935px) {
+
+
+
+/* global classes */
+.icon {
+  width: 60px;
+  padding-bottom: 10px;
+}
+
+/* global classes */
+
+  nav {
+    padding-bottom: 50px;
+  }
+
+  nav ul {
+    top: 160;
+  }
+
+  nav ul li a {
+    font-size: 20px;
+  }
+
+  #banner_text h3 {
+    font-size: 25px;
+  }
+
+  #about_text_name {
+    left: 28%;
+    font-size: 20px;
+  }
+
+  #about_text_description {
+    font-size: 19px;
+  }
+
+  #different_description {
+    font-size: 21px;
+  }
+  #different_motto{
+    font-size: 20px;
+  }
+
+  .bubbleclass1 {
+    height: 320px;
+    width: 320px;
+  }
+  .bubbleclass1 p {
+    font-size: 45px;
+  }
+  .bubbleclass2 {
+    height: 220px;
+    width: 220px;
+  }
+  .bubbleclass2 .services_inner {
+    font-size: 20px;
+    }
+
+  #one {
+    top:1%;
+  }
+  #usana_one {
+    font-size: 24px;
+  }
+  #contact_form_info {
+    display: block;
+  }
+  #address {
+    left: initial;
+    position: initial;
+    padding-bottom: 20px;
+  }
+  #numbers {
+    right: initial;
+    position: initial;
+  }
+  #copyright {
+    margin-top: initial;
+  }
+
+}
+
+/* =================== MEDIA QUERY - IPAD - REGULAR  ========================= */
+
+/* =================== MEDIA QUERY - PHONE   ========================= */
+
+@media (min-width:100px) and (max-width:699px){
+
+
+  /* global classes */
+  .icon {
+    width: 50px;
+    padding-bottom: 10px;
+  }
+  .circlebar {
+    width: 140px;
+    height: auto;
+  }
+
+  /* global classes */
+
+
+  #mobile-navi{
+    background: url('./img/menu_icon.png');
+    height: 50px;
+    background-size: contain;
+    width: 50px;
+    position: absolute;
+    left: 80%;
+    top: 10px;
+    z-index: 1000;
+  }
+
+  nav {
+    height: 50px;
+  }
+   nav ul{
+    position: initial;
+    display: none;
+    height: 225px;
+    width: 100%;
+  }
+
+  .open {
+    display: block;
+  }
+
+  nav ul li {
+    padding: 0;
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  nav ul li a {
+    padding: 0;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+  nav img {
+    height: 50px;
+  }
+  #banner {
+    background: url('./img/bannerimage.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+    position: relative;
+  }
+
+  nav h2 {
+    position: absolute;
+    left: 50px;
+    top: 15px;
+    font-size: 12px;
+}
+
+
+  #banner_text h2 {
+    font-size: 30;
+  }
+  #banner_text h3 {
+    font-size: 14px;
+  }
+
+  #appointment_button {
+  font-size: 10px;
+  }
+
+  #about_title h2 {
+    font-size: 40px;
+  }
+
+  #about_text img {
+    position: absolute;
+    top: 39%;
+    transform: translateY(-50%);
+    height: 75px;
+  }
+  #about_text_name {
+    position: absolute;
+    margin-left: 25%;
+    top: 28%;
+    font-size: 22px;
+    color: #949494;
+    transform: translateX(-50%);
+  }
+  #about_text_description {
+    position: absolute;
+    left: 50%;
+    font-size: 16px;
+    top: 62%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: #949494;
+    width: 100%;
+  }
+
+  #different_title h2 {
+    font-size: 40px;
+  }
+  #different_description {
+    font-size: 15px;
+  }
+  #different_description p {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+  }
+
+  #different_motto {
+     font-size: 15px;
+  }
+  #services_title h2 {
+    height: initial;
+    font-size: 40px;
+  }
+  #services_title {
+    padding-bottom: 70px;
+  }
+  #services_section {
+    height: 2000px;
+  }
+  .bubbleclass1 {
+    height: 250px;
+    width: 250px;
+  }
+  .bubbleclass1 p {
+    font-size: 30px;
+  }
+  .bubbleclass2 {
+    height: 180px;
+    width: 180px;
+  }
+  .bubbleclass2 .services_inner {
+    font-size: 16px;
+    }
+
+  #one {
+    position: absolute;
+    top: 0.5%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #two {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #three {
+    position: absolute;
+    top: 24%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #four {
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #five {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #six {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #seven {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #eight {
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #nine img {
+    height: auto;
+    width: 25%;
+    position: absolute;
+    top: 87%;
+    max-width: 300px;
+    min-width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  #usana_one {
+    font-size: 16px;
+  }
+
+  #usana_two {
+      padding-top: 50;
+      font-size: 26px;
+  }
+  #contact_form_title h2 {
+    font-size: 40px;
+  }
+
+  form {
+    width: 80%;
+  }
+  .form_field {
+    font-size: 15px;
+    width: 100%;
+  }
+  .form_button{
+    font-size: 15px;
+  }
+  #contact_form {
+    height: 850px
+  }
+  #contact_form_info {
+    display: block;
+    font-size: 15px;
+  }
+
+  #address {
+    left: initial;
+    position: initial;
+    padding-bottom: 10px;
+  }
+  #numbers {
+    left: initial;
+    position: initial;
+  }
+  #copyright {
+    margin-top: 30px;
+  }
+
+}
+/* =================== MEDIA QUERY - PHONE   ========================= */
+
+
+
+
+
+
+
+
+/* ==================================== MOBILE VERSION ===================================  */
+/* ==================================== MOBILE VERSION ===================================  */
+/* ==================================== MOBILE VERSION ===================================  */
+/* ==================================== MOBILE VERSION ===================================  */
